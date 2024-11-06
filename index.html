@@ -3,10 +3,458 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Puma Clone</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
+    
 </head>
 <body>
-    <h1 class="bg-red-500">Hello pooja</h1>
+    <!-- Header -->
+    <div class="h-10 flex justify-center items-center  cursor-pointer ">
+        <p class="font-bold text-sm">EXTRA 5% DISCOUNT AND FREE SHIPPING ON ALL ONLINE PAYMENTS.</p>
+    </div>
+    
+
+    <div class="h-auto w-full bg-black flex justify-between px-6 py-6 cursor-pointer  sticky top-0 left-0 right-0  z-40 ">
+        <div class="flex justify-center items-center gap-8 ">
+            <div class="flex  justify-center items-center">
+                <a href="./index.html"><img class="h-[30px] w-[50px]"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnsLWqOMazWFFpQ7iWtOoHy4GUaaIHz9akZg&s" alt="Puma Logo"></a>
+            </div>
+    
+            <div class="flex gap-6 items-center text-white font-medium hover:text-gray-500">
+                
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">New</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Women</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Men</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Kids</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Motersports</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Collaborations</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Sports</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Sell</p>
+                <p class=" hover:text-white hover:underline-offset-8 hover:underline">Palermo</p>
+                
+            </div>
+        </div>
+
+       <div class="flex items-center gap-8">
+        <div class=" pl-3 flex items-center border  h-10 w-36 gap-4 bg-black">
+            <i class="fa-solid fa-magnifying-glass text-white"></i>
+            <p class="text-white font-bold text-[16px]">SEARCH</p>
+        </div>
+        <i class="fa-regular fa-heart text-white"></i>
+        <span class="material-symbols-outlined text-white ">
+            shopping_cart
+            </span>
+        <i class="fa-regular fa-user text-white"></i>
+       </div>
+    </div> 
+    <div class="h-auto py-4 flex flex-col justify-center items-center text-white bg-[#414584] cursor-pointer ">
+       <h2 class="text-[16px] font-bold">EXTRA 15% OFF ON ORDERS ABOVE ₹3999*</h2>
+        <div >
+            <a href="" class="text-[14px] font-bold underline">FOR HIM</a>
+            <a href="" class="text-[14px] font-bold underline">FOR HER</a>
+            <a href="" class="text-[14px] font-bold underline">FOR KIDS</a>
+        </div>
+        <h3 class="text-[12px] font-normal">Auto-applied at checkout | *Exclusions apply</h3>
+    </div>
+   
+    <!-- VIRAT IMG -->
+    <div class=" cursor-pointer bg-[url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/32f16efd520940f1b163cb907f2a58f4fe051313?_a=BAMCkGfi0')] bg-cover h-[80vh] w-full">
+     <div class="text-white flex flex-col justify-center items-center h-full w-[30vw]">
+            <h1 class=" font-bold text-[40px]">NEW ARRIVALS</h1>
+            <h2 class=" font-normal text-[24px]">WORK BY VIRAT KOHLI</h2>
+         <div class="pt-4 gap-4 flex">
+            <button class="border bg-white text-black h-10 w-36 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+            <button class="border bg-white text-black h-10 w-44 font-bold text-[16px] hover:bg-gray-300" >CURATED LOOKS</button>
+         </div>
+     </div>
+    </div>
+    <div class=" cursor-pointer bg-[url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_2880/cms/images/f5eaefeafb5a5ff5ca2d77b22f6b7653aed842da?_a=BAMCkGfi0')] bg-cover h-72 w-full">
+        <div class="mb-2 text-white flex flex-col justify-center items-center h-full ">
+               <h1 class=" font-bold text-[40px]">LOWEST PRICE OF THE YEAR</h1>
+               <h2 class=" font-normal text-[24px]">IT'S A NOW OR NEVERKINDA DEAL</h2>
+            <div class="pt-6 gap-4 flex">
+               <button class="border bg-white text-black h-10 w-32 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+            </div>
+            
+        </div>
+       </div>
+       <!-- PALERMO -->
+       <div class=" mt-20 bg-white h-auto">
+        <div class="  h-[80vh] bg-[#DAD2CC] flex justify-between">
+            <div class="pl-8 mt-16 flex flex-col  h-full ">
+                <h1 class="font-bold text-[40px]">PALERMO</h1>
+                <h2 class="font-normal text-[24px]">REWRITE THE CLASSICS</h2>
+                <div class="pt-4 pb-10 gap-4 flex ">
+                    <button class="border bg-black text-white  h-10 w-36 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+                    <button class="border bg-black text-white  h-10 w-56 font-bold text-[16px] hover:bg-gray-300" >EXPLORE STYLE GUIDE</button>
+                 </div>
+                 
+                 <iframe 
+                 src="https://cdn.sanity.io/files/qa41whrn/prod/2269b9809fbb0cc903469eabd884b3de0ac70c80.mp4?autoplay=1&muted=1" 
+                    frameborder="0" 
+                     
+                 class="w-[700px] h-[500px]">
+               </iframe>
+            </div>
+            <div class="h-56 pr-8 ">
+                <img class="h-[600px] w-[600px]" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_3200/cms/images/45adb00438bd290f62f1146b0792436e60087fe4?_a=BAMCkGfi0" alt="">
+            </div>
+           </div>
+
+           <div class="mt-20 h-72 flex flex-col justify-center items-center">
+                <h1 class="font-bold text-[40px]">PALERMO PLAYBOOK</h1>
+                <h2 class="font-normal text-[18px] text-gray-400">STYLE EM YOUR WAY, EVERY DAY</h2>
+           </div>
+           <!-- images  -->
+           <div class="cursor-pointer px-8 h-auto flex gap-2">
+            <div class="flex flex-col justify-center items-center">
+                <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/a0baeb671b2d2521b0fb92aced51edbc451c5718?_a=BAMAH2fi0" alt="">
+                <p class="pt-2 font-bold text-[20px]">STREETWEAR STAMPLE</p>
+                <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+                <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/faa9d6bbc65cf26709372d27ce9ba2884708c84b?_a=BAMCkGfi0" alt="">
+                <p class="pt-2 font-bold text-[20px]">NIGHT-OUT LOOKS</p>
+                <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+                <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_2083/cms/images/8adef940f580b6559e730b05954bbedfb1491822?_a=BAMAH2fi0" alt="">
+                <p class="pt-2 font-bold text-[20px]">PLAYFULL OUTINGS</p>
+                <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+                <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/ef2d5db96e29d8ad45056fb19c0ce3aedd545d56?_a=BAMCkGfi0" alt="">
+                <p class="pt-2 font-bold text-[20px]">THE FESTIVE EDITS</p>
+                <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+            </div>
+           </div>
+       </div>
+       <!-- FENTY & PUMA -->
+       <div class=" mt-14 cursor-pointer bg-[url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/c7e563093ce8968cf56a0dbabc3aed8e6003eec0?_a=BAMAH2fi0')] bg-no-repeat bg-cover h-[80vh] w-full">
+        <div class="text-white flex flex-col justify-center pl-14 h-full w-[30vw]">
+               <h1 class=" font-bold text-[40px]">FENTY & PUMA</h1>
+               <h2 class=" font-normal text-[24px]">THE AVANTI BY RIHANNA</h2>
+            <div class="pt-4 gap-4 flex">
+               <button class="border bg-white text-black h-10 w-36 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+               
+            </div>
+        </div>
+       </div>
+
+       <!-- A$AP ROCKY-->
+       <div class=" mt-14 cursor-pointer bg-[url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/a2d888ff2d01d208b66a4af9fe8edfde53b1e119?_a=BAMCkGfi0')] bg-no-repeat bg-cover h-[80vh] w-full">
+        <div class="text-white flex flex-col  justify-center items-center h-full pl-[60vw]">
+               <h4 class=" font-bold text-[40px]">A$AP ROCKY x PUMA</h4>
+               <h2 class=" font-normal text-[24px]">DROPPING NOVEMBER 7TH</h2>
+            <div class="pt-4 gap-4 flex">
+               <button class="border bg-white text-black h-10 w-52 font-bold text-[16px] hover:bg-gray-300" >EXPLORE COLLECTIONS</button>
+               <button class="border bg-white text-black h-10 w-44 font-bold text-[16px] hover:bg-gray-300" >SIGN UP NOW</button>
+            </div>
+        </div>
+       </div>
+
+      <!--shoe images  -->
+      <div class=" mt-10 cursor-pointer px-8 h-auto flex gap-2">
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1000/cms/images/71ce7729f8f7da8c0cfc20e78b9839d4d8257a84?_a=BAMAH2fi0" alt="">
+            <p class="font-semibold text-[16px]">MB.04 1LOVE</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1000/cms/images/c3a9a7cca38afda7c4bbadf678c3afe427b810eb?_a=BAMAGSfi0" alt="">
+            <p class="font-semibold text-[16px]">DEVIATE 3 MARATHON SERIES</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/73e7d6229af3b731a2b96be73b85a7542c4e8a0f?_a=BAMCkGfi0" alt="">
+            <p class="font-semibold text-[16px]">SOFTRIDE</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1000/cms/images/523938f36eac15a14d2e66cdb263176adf2ab6ac?_a=BAMAGSfi0" alt="">
+            <p class=" font-semibold text-[16px]">LIGHTS OUT PACK</p>
+        </div>
+       </div>
+
+       <!-- Highlights  -->
+       <div class="flex justify-center m-10 font-bold text-[28px] ">HIGHLIGHTS</div>
+       <div class="cursor-pointer px-8 h-auto flex  gap-2">
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_985/cms/images/3e1c0c46b05ee435b4c9c62edfcb05d1e0354c35?_a=BAMCkGfi0" alt="">
+            <p class="pt-2 font-bold text-[20px]">PUMA SPEEDCAT</p>
+            <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/778bd977f339b8f3131ea841cb8aa3a64d42f843?_a=BAMCkGfi0" alt="">
+            <p class="pt-2 font-bold text-[20px]">WINTERWEAR</p>
+            <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_2083/cms/images/8adef940f580b6559e730b05954bbedfb1491822?_a=BAMAH2fi0" alt="">
+            <p class="pt-2 font-bold text-[20px]">PUMA X LMC</p>
+            <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/3b5200bdc44bb743647a0c3e844c5b6d4e1cb322?_a=BAMCkGfi0" alt="">
+            <p class="pt-2 font-bold text-[20px]">THE SCRIBBLE PACK</p>
+            <button class="border bg-black text-white  h-10 w-36 mt-4 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+        </div>
+       </div>
+
+       <!-- PUMA x one8 -->
+       <div class=" mt-14 cursor-pointer bg-[url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/953b99043fc3ec28d0f78a56167e739a51d6afc8?_a=BAMCkGfi0')] bg-no-repeat bg-cover h-[80vh] w-full">
+        <div class="text-white flex flex-col justify-center pl-14 h-full w-[30vw]">
+               <h1 class=" font-bold text-[40px]">PUMA x one8</h1>
+               <h2 class=" font-normal text-[24px]">EFFORTLESS STYLE</h2>
+            <div class="pt-4 gap-4 flex">
+               <button class="border bg-white text-black h-10 w-36 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+               
+            </div>
+        </div>
+       </div>
+
+       <!-- NEW SEASON. NEW THREADS. -->
+       <div class="flex justify-center m-10 font-bold text-[24px] ">NEW SEASON. NEW THREADS.</div>
+      
+      <div class=" mt-10 cursor-pointer px-8 h-auto flex gap-2">
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/55fa220918d3bdc7d4b7d948d8630c0bba97b852?_a=BAMCkGfi0" alt="">
+            <p class="font-semibold text-[16px]">HARYANA STEELRS</p>
+            <p class="font-semibold text-[16px]">HOME JERSEY</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/1a8aab4395a2f8b7fccf58ff6d1602f12b8622a6?_a=BAMCkGfi0" alt="">
+            <p class="font-semibold text-[16px]">HARYANA STEELRS</p>
+            <p class="font-semibold text-[16px]">AWAY JERSEY</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_626/cms/images/423ce1c3734ef6f658e01d41e2771492ebd5661e?_a=BAMCkGfi0" alt="">
+            <p class="font-semibold text-[16px]">MUMBAI CITY FC HOME KIT</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+            <img class="h-96 w-80" src="https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1000/cms/images/c2f5a7d0b5024fb87187dc23084a91bd7cd6ad04?_a=BAMCkGfi0" alt="">
+            <p class=" font-semibold text-[16px]">BENGALURU FC AWAY KIT</p>
+        </div>
+       </div>
+
+       <!-- PUMA x one8 -->
+       <div class=" mt-14 cursor-pointer bg-[url('https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1920/cms/images/21e926883273ea2f81973344ac8fdd4174716bd5?_a=BAMCkGfi0')] bg-no-repeat bg-cover h-[80vh] w-full">
+        <div class="text-white flex flex-col justify-center items-center pl-14 h-full ">
+               <h1 class=" font-bold text-[40px]">MMQ SPORTS</h1>
+               <h2 class=" font-normal text-[24px]">SPORT SOFASTICATION</h2>
+            <div class="pt-6 gap-4 flex">
+               <button class="border bg-white text-black h-10 w-36 font-bold text-[16px] hover:bg-gray-300" >SHOP NOW</button>
+               
+            </div>
+        </div>
+       </div>
+
+           <!-- RECOMMANDED FOR YOU -->
+           <div class="  mt-4 pb-14 h-auto bg-white cursor-pointer">
+         
+            <div class="px-8 pt-4 flex flex-wrap justify-between">
+               <h4 class="text-[24px] font-bold ">RECOMMANDED FOR YOU</h4>
+            </div>
+
+            
+            <!-- shoes container -->
+         <div class="px-8 mt-4 max-w-full flex gap-4 pb-7">
+            <!-- single card -->
+            <div class=" cursor-pointer hover:shadow-md">
+                <div class=" relative max-w-80">
+                  <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/308057/03/fnd/IND/fmt/png/BMW-M-Motorsport-Neo-Cat-2.0-Unisex-Driving-Shoes" width="" alt="cake" class=" w-full rounded-tl-lg rounded-tr-lg">
+                  <p class="absolute flex justify-center items-center bg-red-700   h-6 font-semibold text-[12px] w-16 top-0 left-0 cursor-pointer text-white">50%</p>
+               </div>
+                
+                <div class="p-2 flex  justify-between ">
+                    <div>
+                        <P class="font-normal text-[15px] text-gray-500">PUMA Court Shatter Low Unisex Sneakers</P>
+                    </div>
+                    <div class="flex flex-col items-center gap-1 scale-105 ">
+                        <i class="fa-solid fa-indian-rupee-sign text-red-700 text-[14px]"><span class="font-normal text-sm text-red-700">3419</span></i>
+                        <i class="fa-solid fa-indian-rupee-sign text-gray-400 text-[14px]"><span class="font-normal text-sm line-through text-gray-400">5999</span></i>
+                    </div>
+                </div>
+            </div>
+
+             <!-- single card -->
+             <div class=" cursor-pointer hover:shadow-md">
+                <div class=" relative max-w-80">
+                  <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/308057/04/fnd/IND/fmt/png/BMW-M-Motorsport-Neo-Cat-2.0-Unisex-Driving-Shoes" width="" alt="cake" class=" w-full rounded-tl-lg rounded-tr-lg">
+                  <p class="absolute flex justify-center items-center bg-red-700   h-6 font-semibold text-[12px] w-16 top-0 left-0 cursor-pointer text-white">50%</p>
+               </div>
+                
+                <div class="p-2 flex  justify-between ">
+                    <div>
+                        <P class="font-normal text-[15px] text-black">Graviton Pro Unisex Sneakers</P>
+                    </div>
+                    <div class="flex flex-col items-center gap-1 scale-105 ">
+                        <i class="fa-solid fa-indian-rupee-sign text-red-700 text-[14px]"><span class="font-normal text-sm text-red-700">3989</span></i>
+                        <i class="fa-solid fa-indian-rupee-sign text-gray-400 text-[14px]"><span class="font-normal text-sm line-through text-gray-400">6999</span></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- single card -->
+            <div class=" cursor-pointer hover:shadow-md">
+                <div class=" relative max-w-80">
+                  <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/308370/02/sv01/fnd/IND/fmt/png/BMW-M-Motorsport-Neo-Cat-Mid-2.0-Unisex-Sneakers" width="" alt="cake" class=" w-full rounded-tl-lg rounded-tr-lg">
+                  <p class="absolute flex justify-center items-center bg-red-700   h-6 font-semibold text-[12px] w-16 top-0 left-0 cursor-pointer text-white">50%</p>
+               </div>
+                
+                <div class="p-2 flex  justify-between ">
+                    <div>
+                        <P class="font-normal text-[15px] text-black">FlexFocus Lite Modern Unisex Running Shoes</P>
+                    </div>
+                    <div class="flex flex-col items-center gap-1 scale-105 ">
+                        <i class="fa-solid fa-indian-rupee-sign text-red-700 text-[14px]"><span class="font-normal text-sm text-red-700">3129</span></i>
+                        <i class="fa-solid fa-indian-rupee-sign text-gray-400 text-[14px]"><span class="font-normal text-sm line-through text-gray-400">6999</span></i>
+                    </div>
+                </div>
+            </div>
+
+        <!-- single card -->
+        <div class=" cursor-pointer hover:shadow-md">
+            <div class=" relative max-w-80">
+              <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/308370/01/sv01/fnd/IND/fmt/png/BMW-M-Motorsport-Neo-Cat-Mid-2.0-Unisex-Sneakers" width="" alt="cake" class=" w-full rounded-tl-lg rounded-tr-lg">
+             
+           </div>
+            
+            <div class="p-2 flex  justify-between ">
+                <div>
+                    <P class="font-normal text-[15px] text-black">Palermo Lth Unisex Sneakers</P>
+                </div>
+                <div class="flex flex-col items-center gap-1 scale-105 ">
+                    <i class="fa-solid fa-indian-rupee-sign text-black text-[14px]"><span class="font-normal text-sm text-black">6900</span></i>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+         </div>
+      </div>
+
+    <!-- Footer -->
+    <footer>
+        <div
+           class=" bg-black flex flex-col md:flex-row px-6 sm:px-20 py-8 gap-10 justify-between font-poppins"
+        >
+           
+           <div
+              id="lists"
+              class="  flex flex-wrap sm:flex-nowrap justify-between  sm:gap-20 "
+           >
+              <ul class="flex flex-col gap-y-1.5">
+                 <h2 class="font-bold text-[18px] pb-2 text-white">SUPPORT</h2>
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Contact us</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Promotions & Sales</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Track Order</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal">Shoe Care</a>
+                 <a href="" class="text-gray-400 text-[16px] font-normal">Tech Glossary</a>
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Initiate Return / Exchange</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal">Cookie Settings</a>
+              </ul>
+  
+              <ul class="flex flex-col  gap-y-1.5">
+                 
+                 <a href="" class="text-gray-400 text-[16px] font-normal pt-8">FAQ</a>
+                 <a href=""class="text-gray-400 text-[16px] font-normal"
+                    >My Account</a>
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Exchange & Return Policy</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Privacy Policy</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Terms and Conditions</a
+                 >
+                 <a href=""class="text-gray-400 text-[16px] font-normal"
+                    >Sneakers</a
+                 >
+                 
+              </ul>
+              <ul class="flex flex-col  gap-y-1.5">
+                 <h2 class="font-bold text-[18px] pb-2 text-white">ABOUT</h2>
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Company</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Corporate News</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Press Center</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px]  font-normal"
+                    >Investor</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Sustainability</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Careers</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >Store Locator</a
+                 >
+                 <a href="" class="text-gray-400 text-[16px] font-normal"
+                    >PUMA Articles</a
+                 >
+              </ul>
+              
+           </div>
+  
+           <div>
+              <div class="font-bold text-[18px] pb-4 text-white">
+                 <p>STAY UP TO DATE</p>
+              </div>
+              <div class="flex gap-2">
+                <i class="fa-brands fa-youtube text-xl p-4 text-white"></i>
+                <i class="fa-brands fa-twitter text-xl p-4 text-white"></i>
+                <i class="fa-brands fa-pinterest text-xl p-4 text-white"></i>
+                <i class="fa-brands fa-instagram text-xl p-4 text-white"></i>
+                <i class="fa-brands fa-facebook text-xl p-4 text-white"></i>
+                
+              </div>
+              <div class="font-bold text-[18px] pb-4 text-white">
+                <p>EXPLORE</p>
+             </div>
+             <div>
+                <img src="https://app.puma.com/web-download-in" alt="">
+             </div>
+           </div>
+        </div>
+        
+        <div class="pt-4 bg-black h-44">
+            <hr class="border border-white" /> 
+        </div>
+     </footer>
 </body>
 </html>
